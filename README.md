@@ -1,2 +1,2 @@
-# olojs-next
-Experimental libraries based on olojs.
+# olo-next
+Experimental libraries.
