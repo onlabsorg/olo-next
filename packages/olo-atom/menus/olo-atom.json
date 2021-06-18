@@ -1,0 +1,26 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Insert swan expression", 
+                "command": "olo-atom:insert-expression"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages", 
+            "submenu": [
+                {
+                    "label": "olo-atom", 
+                    "submenu": [                
+                        {
+                            "label": "Insert swan expression", 
+                            "command": "olo-atom:insert-expression"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

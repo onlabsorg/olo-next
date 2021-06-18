@@ -1,0 +1,18 @@
+Usage: stilo [options] [command]
+
+Options:
+  -v --version             output the version number
+  -h, --help               display help for command
+
+Commands:
+  init                     initialize the current directory as the root of an
+                           olojs document package
+  install <plugin>         install a plugin
+  uninstall <plugin>       uninstall a plugin
+  read <path>              fetche a document source and print it to the
+                           stdout
+  render <path> [args...]  render a document and print it to the stdout
+  list [path]              list the content of a directory
+  run <command> [args...]  run a custom command
+  commands                 list all the available run sub-commands
+  help [command]           display help for command

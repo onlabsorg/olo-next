@@ -1,0 +1,17 @@
+{
+  "name": "stndard-router",
+  "version": "0.1.0",
+  "description": "olojs Router with a standard directory strucure",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test.js"
+  },
+  "author": "Marcello Del Buono (m.delbuono@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@onlabsorg/olojs": "^0.20.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4"
+  }
+}

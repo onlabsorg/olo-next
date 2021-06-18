@@ -1,0 +1,2 @@
+<% math = require 'math' %>
+The area of a circle with diameter D = <% argns.D %> is <% math.round(math.PI * argns.D^2 / 4 * 100) / 100 %>

@@ -1,0 +1,21 @@
+{
+  "name": "browser-store",
+  "version": "0.1.0",
+  "description": "olojs store based on the browser storage",
+  "main": "index.js",
+  "scripts": {
+    "develop": "./node_modules/.bin/webpack --mode development --watch",
+    "build": "./node_modules/.bin/webpack --mode production",
+    "test": "node ./test/index.js"
+  },
+  "author": "Marcello Del Buono (m.delbuono@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@onlabsorg/olojs": "^0.20.4",
+    "localforage": "^1.9.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

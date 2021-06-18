@@ -1,0 +1,45 @@
+'scopeName': 'source.swan'
+'fileTypes': ['olo']
+'name': 'olodocument'
+'patterns': [
+    {
+        'begin': '<%'
+        'beginCaptures':
+            '0':
+                'name': 'keyword.operator.swan'
+        'end': '%>'
+        'endCaptures':
+            '0':
+                'name': 'keyword.operator.swan'        
+        'name': 'text.swan'
+        'patterns': [
+            {
+                'match': '#.*$'
+                'name': 'comment.line.swan'
+            }            
+            {
+              'begin': '"'
+              'end': '"'
+              'name': 'string.quoted.double.swan'
+            }
+            {
+              'begin': '\''
+              'end': '\''
+              'name': 'string.quoted.single.swan'
+            }    
+            {
+              'begin': '\`'
+              'end': '\`'
+              'name': 'string.quoted.single.swan'
+            }    
+            {
+                'match': '([-+]?[0-9]+(\\.[0-9]+)?)'
+                'name': 'constant.numeric.swan'
+            }    
+            {
+                'match': '\\w+'
+                'name': 'variable.other.swan'
+            }
+        ]
+    }
+]

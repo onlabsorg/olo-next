@@ -1,0 +1,23 @@
+{
+  "name": "@onlabsorg/olo-next",
+  "version": "0.1.0",
+  "description": "A collection of experimental olojs extendsions",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "mocha test/index.js"
+  },
+  "author": "Marcello Del Buono (m.delbuono@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {},
+  "publishConfig": {
+      "access": "public"
+  },
+  "workspaces": ["./packages/*"]
+}
