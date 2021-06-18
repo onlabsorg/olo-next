@@ -1,5 +1,5 @@
 {
-  "name": "@onlabsorg/olo-next",
+  "name": "@onlabsorg/olojs-next",
   "version": "0.1.0",
   "description": "A collection of experimental olojs extendsions",
   "main": "index.js",

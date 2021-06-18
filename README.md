@@ -9,6 +9,23 @@ particular, it contains the following packages:
     subordinate olojs Store of `s` where paths `/path` ponts to `/p/path`
 *   `olo-atom` is an [atom] plugin that features olojs documents syntax
     highlighting
+    
+## Getting started
+Install `olojs-next` via npm:
+
+```
+npm install --save @onlabsorg/olojs-next
+```
+
+Load the packages you need:
+
+```js
+const StandardRouter = require('@onlabsorg/olojs-next/packages/standard-router');
+```
+
+## License
+This software is released under the [ISC](https://opensource.org/licenses/ISC) 
+license.
 
 
 [olojs]: https://github.com/onlabsorg/olojs
